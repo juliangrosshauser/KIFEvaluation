@@ -1,4 +1,4 @@
-# JGHKIFEvaluation
+# JGHKIFEvaluation [![Build Status](https://travis-ci.org/juliangrosshauser/JGHKIFEvaluation.svg?branch=master)](https://travis-ci.org/juliangrosshauser/JGHKIFEvaluation)
 
 I'm currently evaluating iOS UI testing options.  
 This is just a simple project to try out [KIF](https://github.com/kif-framework/KIF).
