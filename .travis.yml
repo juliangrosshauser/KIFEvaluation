@@ -2,3 +2,4 @@ language: objective-c
 xcode_project: JGHKIFEvaluation.xcodeproj
 xcode_scheme: JGHKIFEvaluation
 xcode_sdk: iphonesimulator8.1
+script: xcodebuild -project JGHKIFEvaluation.xcodeproj -scheme JGHKIFEvaluation -sdk iphonesimulator8.1 test
