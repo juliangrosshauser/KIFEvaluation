@@ -1,9 +1,9 @@
 language: objective-c
-xcode_project: JGHKIFEvaluation.xcodeproj
-xcode_scheme: JGHKIFEvaluation
+xcode_project: KIF\ Evaluation.xcodeproj
+xcode_scheme: KIF\ Evaluation
 xcode_sdk: iphonesimulator8.1
 before_install:
   - brew update
   - brew install carthage
 install: carthage update --no-build
-script: xcodebuild -project JGHKIFEvaluation.xcodeproj -scheme JGHKIFEvaluation -sdk iphonesimulator8.1 test
+script: xcodebuild -project KIF\ Evaluation.xcodeproj -scheme KIF\ Evaluation -sdk iphonesimulator8.1 test

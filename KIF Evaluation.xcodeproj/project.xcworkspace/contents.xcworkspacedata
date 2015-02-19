@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:JGHKIFEvaluation.xcodeproj">
+      location = "self:KIF Evaluation.xcodeproj">
    </FileRef>
 </Workspace>

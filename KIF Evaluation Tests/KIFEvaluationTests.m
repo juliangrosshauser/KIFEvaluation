@@ -1,6 +1,6 @@
 //
-//  JGHKIFEvaluationTests.m
-//  JGHKIFEvaluationTests
+//  KIFEvaluationTests.m
+//  KIF Evaluation Tests
 //
 //  Created by Julian Grosshauser on 11/02/15.
 //  Copyright (c) 2015 Julian Grosshauser. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <KIF/KIF.h>
 
-@interface JGHKIFEvaluationTests : KIFTestCase
+@interface KIFEvaluationTests : KIFTestCase
 
 @end
 
-@implementation JGHKIFEvaluationTests
+@implementation KIFEvaluationTests
 
 - (void)testAlertButton {
     // press "Show Alert" button

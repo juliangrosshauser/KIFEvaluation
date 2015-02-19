@@ -7,65 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B97C07A11A92976E0045D746 /* libKIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B97C07981A9297310045D746 /* libKIF.a */; };
-		B97C07A51A9298180045D746 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97C07A21A92977B0045D746 /* CoreGraphics.framework */; };
+		B922EBA61A93FA7800E74169 /* KIFEvaluationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B97C6D871A8BF0C8007E36A9 /* KIFEvaluationTests.m */; };
+		B922EBA91A93FA9C00E74169 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97C07A21A92977B0045D746 /* CoreGraphics.framework */; };
+		B922EBC01A93FB4D00E74169 /* libKIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B922EBB71A93FB4400E74169 /* libKIF.a */; };
 		B97C6D6E1A8BF0C7007E36A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B97C6D6D1A8BF0C7007E36A9 /* main.m */; };
 		B97C6D711A8BF0C7007E36A9 /* JGHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B97C6D701A8BF0C7007E36A9 /* JGHAppDelegate.m */; };
 		B97C6D741A8BF0C7007E36A9 /* JGHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B97C6D731A8BF0C7007E36A9 /* JGHViewController.m */; };
 		B97C6D791A8BF0C7007E36A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B97C6D781A8BF0C7007E36A9 /* Images.xcassets */; };
 		B97C6D7C1A8BF0C7007E36A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B97C6D7A1A8BF0C7007E36A9 /* LaunchScreen.xib */; };
-		B97C6D881A8BF0C8007E36A9 /* JGHKIFEvaluationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B97C6D871A8BF0C8007E36A9 /* JGHKIFEvaluationTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B97C07971A9297310045D746 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B97C078E1A9297310045D746 /* KIF.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EABD46AA1857A0C700A5F081;
-			remoteInfo = KIF;
-		};
-		B97C07991A9297310045D746 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B97C078E1A9297310045D746 /* KIF.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EB72047C1680DDAD00278DA2;
-			remoteInfo = "KIF-OCUnit";
-		};
-		B97C079B1A9297310045D746 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B97C078E1A9297310045D746 /* KIF.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EB60ECC1177F8C83005A041A;
-			remoteInfo = "Test Host";
-		};
-		B97C079D1A9297310045D746 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B97C078E1A9297310045D746 /* KIF.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EABD46CD1857A0F300A5F081;
-			remoteInfo = "KIF Tests";
-		};
-		B97C079F1A9297310045D746 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B97C078E1A9297310045D746 /* KIF.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EB60ECEB177F8DB3005A041A;
-			remoteInfo = "KIF Tests-OCUnit";
-		};
-		B97C6D821A8BF0C8007E36A9 /* PBXContainerItemProxy */ = {
+		B922EBA11A93F97400E74169 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B97C6D601A8BF0C7007E36A9 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B97C6D671A8BF0C7007E36A9;
-			remoteInfo = JGHKIFEvaluation;
+			remoteInfo = "KIF Evaluation";
+		};
+		B922EBB61A93FB4400E74169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B922EBAD1A93FB4400E74169 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EABD46AA1857A0C700A5F081;
+			remoteInfo = KIF;
+		};
+		B922EBB81A93FB4400E74169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B922EBAD1A93FB4400E74169 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB72047C1680DDAD00278DA2;
+			remoteInfo = "KIF-OCUnit";
+		};
+		B922EBBA1A93FB4400E74169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B922EBAD1A93FB4400E74169 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB60ECC1177F8C83005A041A;
+			remoteInfo = "Test Host";
+		};
+		B922EBBC1A93FB4400E74169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B922EBAD1A93FB4400E74169 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EABD46CD1857A0F300A5F081;
+			remoteInfo = "KIF Tests";
+		};
+		B922EBBE1A93FB4400E74169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B922EBAD1A93FB4400E74169 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB60ECEB177F8DB3005A041A;
+			remoteInfo = "KIF Tests-OCUnit";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B97C078E1A9297310045D746 /* KIF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KIF.xcodeproj; path = Carthage/Checkouts/KIF/KIF.xcodeproj; sourceTree = SOURCE_ROOT; };
+		B922EB9B1A93F97400E74169 /* KIF Evaluation Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KIF Evaluation Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B922EBAD1A93FB4400E74169 /* KIF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KIF.xcodeproj; path = Carthage/Checkouts/KIF/KIF.xcodeproj; sourceTree = SOURCE_ROOT; };
 		B97C07A21A92977B0045D746 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B97C6D681A8BF0C7007E36A9 /* JGHKIFEvaluation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGHKIFEvaluation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B97C6D681A8BF0C7007E36A9 /* KIF Evaluation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KIF Evaluation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B97C6D6C1A8BF0C7007E36A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B97C6D6D1A8BF0C7007E36A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B97C6D6F1A8BF0C7007E36A9 /* JGHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGHAppDelegate.h; sourceTree = "<group>"; };
@@ -74,14 +75,22 @@
 		B97C6D731A8BF0C7007E36A9 /* JGHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGHViewController.m; sourceTree = "<group>"; };
 		B97C6D781A8BF0C7007E36A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B97C6D7B1A8BF0C7007E36A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B97C6D811A8BF0C8007E36A9 /* JGHKIFEvaluationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGHKIFEvaluationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B97C6D861A8BF0C8007E36A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B97C6D871A8BF0C8007E36A9 /* JGHKIFEvaluationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGHKIFEvaluationTests.m; sourceTree = "<group>"; };
-		B97C6D911A8BF17B007E36A9 /* JGHKIFEvaluation-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JGHKIFEvaluation-Prefix.pch"; sourceTree = "<group>"; };
-		B97C6F521A8BF784007E36A9 /* JGHKIFEvaluationTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JGHKIFEvaluationTests-Prefix.pch"; sourceTree = "<group>"; };
+		B97C6D871A8BF0C8007E36A9 /* KIFEvaluationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIFEvaluationTests.m; sourceTree = "<group>"; };
+		B97C6D911A8BF17B007E36A9 /* KIFEvaluation-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFEvaluation-Prefix.pch"; sourceTree = "<group>"; };
+		B97C6F521A8BF784007E36A9 /* KIFEvaluationTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFEvaluationTests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B922EB981A93F97400E74169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B922EBC01A93FB4D00E74169 /* libKIF.a in Frameworks */,
+				B922EBA91A93FA9C00E74169 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B97C6D651A8BF0C7007E36A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,26 +98,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B97C6D7E1A8BF0C8007E36A9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B97C07A11A92976E0045D746 /* libKIF.a in Frameworks */,
-				B97C07A51A9298180045D746 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B97C078F1A9297310045D746 /* Products */ = {
+		B922EBAE1A93FB4400E74169 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B97C07981A9297310045D746 /* libKIF.a */,
-				B97C079A1A9297310045D746 /* libKIF-OCUnit.a */,
-				B97C079C1A9297310045D746 /* Test Host.app */,
-				B97C079E1A9297310045D746 /* KIF Tests - XCTest.xctest */,
-				B97C07A01A9297310045D746 /* KIF Tests-OCUnit.octest */,
+				B922EBB71A93FB4400E74169 /* libKIF.a */,
+				B922EBB91A93FB4400E74169 /* libKIF-OCUnit.a */,
+				B922EBBB1A93FB4400E74169 /* Test Host.app */,
+				B922EBBD1A93FB4400E74169 /* KIF Tests - XCTest.xctest */,
+				B922EBBF1A93FB4400E74169 /* KIF Tests-OCUnit.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,8 +124,8 @@
 		B97C6D5F1A8BF0C7007E36A9 = {
 			isa = PBXGroup;
 			children = (
-				B97C6D6A1A8BF0C7007E36A9 /* JGHKIFEvaluation */,
-				B97C6D841A8BF0C8007E36A9 /* JGHKIFEvaluationTests */,
+				B97C6D6A1A8BF0C7007E36A9 /* KIF Evaluation */,
+				B97C6D841A8BF0C8007E36A9 /* KIF Evaluation Tests */,
 				B97C6D691A8BF0C7007E36A9 /* Products */,
 				B97C07A41A92980C0045D746 /* Frameworks */,
 			);
@@ -134,25 +134,25 @@
 		B97C6D691A8BF0C7007E36A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B97C6D681A8BF0C7007E36A9 /* JGHKIFEvaluation.app */,
-				B97C6D811A8BF0C8007E36A9 /* JGHKIFEvaluationTests.xctest */,
+				B97C6D681A8BF0C7007E36A9 /* KIF Evaluation.app */,
+				B922EB9B1A93F97400E74169 /* KIF Evaluation Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B97C6D6A1A8BF0C7007E36A9 /* JGHKIFEvaluation */ = {
+		B97C6D6A1A8BF0C7007E36A9 /* KIF Evaluation */ = {
 			isa = PBXGroup;
 			children = (
 				B97C6D6F1A8BF0C7007E36A9 /* JGHAppDelegate.h */,
 				B97C6D701A8BF0C7007E36A9 /* JGHAppDelegate.m */,
 				B97C6D721A8BF0C7007E36A9 /* JGHViewController.h */,
 				B97C6D731A8BF0C7007E36A9 /* JGHViewController.m */,
-				B97C6D911A8BF17B007E36A9 /* JGHKIFEvaluation-Prefix.pch */,
+				B97C6D911A8BF17B007E36A9 /* KIFEvaluation-Prefix.pch */,
 				B97C6D781A8BF0C7007E36A9 /* Images.xcassets */,
 				B97C6D7A1A8BF0C7007E36A9 /* LaunchScreen.xib */,
 				B97C6D6B1A8BF0C7007E36A9 /* Supporting Files */,
 			);
-			path = JGHKIFEvaluation;
+			path = "KIF Evaluation";
 			sourceTree = "<group>";
 		};
 		B97C6D6B1A8BF0C7007E36A9 /* Supporting Files */ = {
@@ -164,15 +164,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B97C6D841A8BF0C8007E36A9 /* JGHKIFEvaluationTests */ = {
+		B97C6D841A8BF0C8007E36A9 /* KIF Evaluation Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B97C078E1A9297310045D746 /* KIF.xcodeproj */,
-				B97C6D871A8BF0C8007E36A9 /* JGHKIFEvaluationTests.m */,
-				B97C6F521A8BF784007E36A9 /* JGHKIFEvaluationTests-Prefix.pch */,
+				B922EBAD1A93FB4400E74169 /* KIF.xcodeproj */,
+				B97C6D871A8BF0C8007E36A9 /* KIFEvaluationTests.m */,
+				B97C6F521A8BF784007E36A9 /* KIFEvaluationTests-Prefix.pch */,
 				B97C6D851A8BF0C8007E36A9 /* Supporting Files */,
 			);
-			path = JGHKIFEvaluationTests;
+			path = "KIF Evaluation Tests";
 			sourceTree = "<group>";
 		};
 		B97C6D851A8BF0C8007E36A9 /* Supporting Files */ = {
@@ -186,9 +186,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B97C6D671A8BF0C7007E36A9 /* JGHKIFEvaluation */ = {
+		B922EB9A1A93F97400E74169 /* KIF Evaluation Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B97C6D8B1A8BF0C8007E36A9 /* Build configuration list for PBXNativeTarget "JGHKIFEvaluation" */;
+			buildConfigurationList = B922EBA31A93F97400E74169 /* Build configuration list for PBXNativeTarget "KIF Evaluation Tests" */;
+			buildPhases = (
+				B922EB971A93F97400E74169 /* Sources */,
+				B922EB981A93F97400E74169 /* Frameworks */,
+				B922EB991A93F97400E74169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B922EBA21A93F97400E74169 /* PBXTargetDependency */,
+			);
+			name = "KIF Evaluation Tests";
+			productName = "KIF Evaluation Tests";
+			productReference = B922EB9B1A93F97400E74169 /* KIF Evaluation Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B97C6D671A8BF0C7007E36A9 /* KIF Evaluation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B97C6D8B1A8BF0C8007E36A9 /* Build configuration list for PBXNativeTarget "KIF Evaluation" */;
 			buildPhases = (
 				B97C6D641A8BF0C7007E36A9 /* Sources */,
 				B97C6D651A8BF0C7007E36A9 /* Frameworks */,
@@ -198,28 +216,10 @@
 			);
 			dependencies = (
 			);
-			name = JGHKIFEvaluation;
+			name = "KIF Evaluation";
 			productName = JGHKIFEvaluation;
-			productReference = B97C6D681A8BF0C7007E36A9 /* JGHKIFEvaluation.app */;
+			productReference = B97C6D681A8BF0C7007E36A9 /* KIF Evaluation.app */;
 			productType = "com.apple.product-type.application";
-		};
-		B97C6D801A8BF0C8007E36A9 /* JGHKIFEvaluationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B97C6D8E1A8BF0C8007E36A9 /* Build configuration list for PBXNativeTarget "JGHKIFEvaluationTests" */;
-			buildPhases = (
-				B97C6D7D1A8BF0C8007E36A9 /* Sources */,
-				B97C6D7E1A8BF0C8007E36A9 /* Frameworks */,
-				B97C6D7F1A8BF0C8007E36A9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B97C6D831A8BF0C8007E36A9 /* PBXTargetDependency */,
-			);
-			name = JGHKIFEvaluationTests;
-			productName = JGHKIFEvaluationTests;
-			productReference = B97C6D811A8BF0C8007E36A9 /* JGHKIFEvaluationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -230,16 +230,16 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Julian Grosshauser";
 				TargetAttributes = {
-					B97C6D671A8BF0C7007E36A9 = {
-						CreatedOnToolsVersion = 6.1.1;
-					};
-					B97C6D801A8BF0C8007E36A9 = {
+					B922EB9A1A93F97400E74169 = {
 						CreatedOnToolsVersion = 6.1.1;
 						TestTargetID = B97C6D671A8BF0C7007E36A9;
 					};
+					B97C6D671A8BF0C7007E36A9 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
 				};
 			};
-			buildConfigurationList = B97C6D631A8BF0C7007E36A9 /* Build configuration list for PBXProject "JGHKIFEvaluation" */;
+			buildConfigurationList = B97C6D631A8BF0C7007E36A9 /* Build configuration list for PBXProject "KIF Evaluation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -252,57 +252,64 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = B97C078F1A9297310045D746 /* Products */;
-					ProjectRef = B97C078E1A9297310045D746 /* KIF.xcodeproj */;
+					ProductGroup = B922EBAE1A93FB4400E74169 /* Products */;
+					ProjectRef = B922EBAD1A93FB4400E74169 /* KIF.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				B97C6D671A8BF0C7007E36A9 /* JGHKIFEvaluation */,
-				B97C6D801A8BF0C8007E36A9 /* JGHKIFEvaluationTests */,
+				B97C6D671A8BF0C7007E36A9 /* KIF Evaluation */,
+				B922EB9A1A93F97400E74169 /* KIF Evaluation Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		B97C07981A9297310045D746 /* libKIF.a */ = {
+		B922EBB71A93FB4400E74169 /* libKIF.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libKIF.a;
-			remoteRef = B97C07971A9297310045D746 /* PBXContainerItemProxy */;
+			remoteRef = B922EBB61A93FB4400E74169 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B97C079A1A9297310045D746 /* libKIF-OCUnit.a */ = {
+		B922EBB91A93FB4400E74169 /* libKIF-OCUnit.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libKIF-OCUnit.a";
-			remoteRef = B97C07991A9297310045D746 /* PBXContainerItemProxy */;
+			remoteRef = B922EBB81A93FB4400E74169 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B97C079C1A9297310045D746 /* Test Host.app */ = {
+		B922EBBB1A93FB4400E74169 /* Test Host.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = "Test Host.app";
-			remoteRef = B97C079B1A9297310045D746 /* PBXContainerItemProxy */;
+			remoteRef = B922EBBA1A93FB4400E74169 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B97C079E1A9297310045D746 /* KIF Tests - XCTest.xctest */ = {
+		B922EBBD1A93FB4400E74169 /* KIF Tests - XCTest.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "KIF Tests - XCTest.xctest";
-			remoteRef = B97C079D1A9297310045D746 /* PBXContainerItemProxy */;
+			remoteRef = B922EBBC1A93FB4400E74169 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B97C07A01A9297310045D746 /* KIF Tests-OCUnit.octest */ = {
+		B922EBBF1A93FB4400E74169 /* KIF Tests-OCUnit.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "KIF Tests-OCUnit.octest";
-			remoteRef = B97C079F1A9297310045D746 /* PBXContainerItemProxy */;
+			remoteRef = B922EBBE1A93FB4400E74169 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B922EB991A93F97400E74169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B97C6D661A8BF0C7007E36A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,16 +319,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B97C6D7F1A8BF0C8007E36A9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B922EB971A93F97400E74169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B922EBA61A93FA7800E74169 /* KIFEvaluationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B97C6D641A8BF0C7007E36A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,21 +340,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B97C6D7D1A8BF0C8007E36A9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B97C6D881A8BF0C8007E36A9 /* JGHKIFEvaluationTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B97C6D831A8BF0C8007E36A9 /* PBXTargetDependency */ = {
+		B922EBA21A93F97400E74169 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B97C6D671A8BF0C7007E36A9 /* JGHKIFEvaluation */;
-			targetProxy = B97C6D821A8BF0C8007E36A9 /* PBXContainerItemProxy */;
+			target = B97C6D671A8BF0C7007E36A9 /* KIF Evaluation */;
+			targetProxy = B922EBA11A93F97400E74169 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -362,6 +362,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B922EBA41A93F97400E74169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME) Tests/KIFEvaluationTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KIF Evaluation Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIF Evaluation.app/KIF Evaluation";
+			};
+			name = Debug;
+		};
+		B922EBA51A93F97400E74169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME) Tests/KIFEvaluationTests-Prefix.pch";
+				INFOPLIST_FILE = "KIF Evaluation Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIF Evaluation.app/KIF Evaluation";
+			};
+			name = Release;
+		};
 		B97C6D891A8BF0C8007E36A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -449,10 +495,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PRODUCT_NAME)/$(PRODUCT_NAME)-Prefix.pch";
-				INFOPLIST_FILE = JGHKIFEvaluation/Info.plist;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/KIFEvaluation-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/KIF Evaluation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "KIF Evaluation";
 			};
 			name = Debug;
 		};
@@ -461,67 +507,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PRODUCT_NAME)/$(PRODUCT_NAME)-Prefix.pch";
-				INFOPLIST_FILE = JGHKIFEvaluation/Info.plist;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/KIFEvaluation-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/KIF Evaluation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		B97C6D8F1A8BF0C8007E36A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PRODUCT_NAME)/$(PRODUCT_NAME)-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = JGHKIFEvaluationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-framework",
-					XCTest,
-					"-ObjC",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGHKIFEvaluation.app/JGHKIFEvaluation";
-			};
-			name = Debug;
-		};
-		B97C6D901A8BF0C8007E36A9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PRODUCT_NAME)/$(PRODUCT_NAME)-Prefix.pch";
-				INFOPLIST_FILE = JGHKIFEvaluationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-framework",
-					XCTest,
-					"-ObjC",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGHKIFEvaluation.app/JGHKIFEvaluation";
+				PRODUCT_NAME = "KIF Evaluation";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B97C6D631A8BF0C7007E36A9 /* Build configuration list for PBXProject "JGHKIFEvaluation" */ = {
+		B922EBA31A93F97400E74169 /* Build configuration list for PBXNativeTarget "KIF Evaluation Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B922EBA41A93F97400E74169 /* Debug */,
+				B922EBA51A93F97400E74169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B97C6D631A8BF0C7007E36A9 /* Build configuration list for PBXProject "KIF Evaluation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B97C6D891A8BF0C8007E36A9 /* Debug */,
@@ -530,20 +535,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B97C6D8B1A8BF0C8007E36A9 /* Build configuration list for PBXNativeTarget "JGHKIFEvaluation" */ = {
+		B97C6D8B1A8BF0C8007E36A9 /* Build configuration list for PBXNativeTarget "KIF Evaluation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B97C6D8C1A8BF0C8007E36A9 /* Debug */,
 				B97C6D8D1A8BF0C8007E36A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B97C6D8E1A8BF0C8007E36A9 /* Build configuration list for PBXNativeTarget "JGHKIFEvaluationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B97C6D8F1A8BF0C8007E36A9 /* Debug */,
-				B97C6D901A8BF0C8007E36A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
