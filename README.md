@@ -1,4 +1,6 @@
-# KIF Evaluation [![Build Status](https://travis-ci.org/juliangrosshauser/KIF-Evaluation.svg?branch=master)](https://travis-ci.org/juliangrosshauser/KIF-Evaluation)
+# KIF Evaluation
+
+[![Build Status](https://img.shields.io/travis/juliangrosshauser/KIF-Evaluation.svg)](https://travis-ci.org/juliangrosshauser/KIF-Evaluation)
 
 I'm currently evaluating iOS UI testing options.  
 This is just a simple project to try out [KIF](https://github.com/kif-framework/KIF).
