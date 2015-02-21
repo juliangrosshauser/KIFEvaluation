@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B922EBA61A93FA7800E74169 /* KIFEvaluationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B97C6D871A8BF0C8007E36A9 /* KIFEvaluationTests.m */; };
 		B922EBA91A93FA9C00E74169 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97C07A21A92977B0045D746 /* CoreGraphics.framework */; };
 		B922EBC01A93FB4D00E74169 /* libKIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B922EBB71A93FB4400E74169 /* libKIF.a */; };
-		B97C6D6E1A8BF0C7007E36A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B97C6D6D1A8BF0C7007E36A9 /* main.m */; };
-		B97C6D711A8BF0C7007E36A9 /* JGHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B97C6D701A8BF0C7007E36A9 /* JGHAppDelegate.m */; };
-		B97C6D741A8BF0C7007E36A9 /* JGHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B97C6D731A8BF0C7007E36A9 /* JGHViewController.m */; };
-		B97C6D791A8BF0C7007E36A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B97C6D781A8BF0C7007E36A9 /* Images.xcassets */; };
-		B97C6D7C1A8BF0C7007E36A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B97C6D7A1A8BF0C7007E36A9 /* LaunchScreen.xib */; };
+		B97DCF561A98BFEF008ECE4E /* JGHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B97DCF4A1A98BFEF008ECE4E /* JGHAppDelegate.m */; };
+		B97DCF571A98BFEF008ECE4E /* JGHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B97DCF4D1A98BFEF008ECE4E /* JGHViewController.m */; };
+		B97DCF581A98BFEF008ECE4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B97DCF501A98BFEF008ECE4E /* main.m */; };
+		B97DCF5A1A98BFEF008ECE4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B97DCF541A98BFEF008ECE4E /* Images.xcassets */; };
+		B97DCF621A98C04B008ECE4E /* KIFEvaluationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B97DCF5D1A98C04B008ECE4E /* KIFEvaluationTests.m */; };
+		B97DCF641A98C107008ECE4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B97DCF521A98BFEF008ECE4E /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,18 +67,18 @@
 		B922EBAD1A93FB4400E74169 /* KIF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KIF.xcodeproj; path = Carthage/Checkouts/KIF/KIF.xcodeproj; sourceTree = SOURCE_ROOT; };
 		B97C07A21A92977B0045D746 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B97C6D681A8BF0C7007E36A9 /* KIF Evaluation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KIF Evaluation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B97C6D6C1A8BF0C7007E36A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B97C6D6D1A8BF0C7007E36A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B97C6D6F1A8BF0C7007E36A9 /* JGHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGHAppDelegate.h; sourceTree = "<group>"; };
-		B97C6D701A8BF0C7007E36A9 /* JGHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGHAppDelegate.m; sourceTree = "<group>"; };
-		B97C6D721A8BF0C7007E36A9 /* JGHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGHViewController.h; sourceTree = "<group>"; };
-		B97C6D731A8BF0C7007E36A9 /* JGHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGHViewController.m; sourceTree = "<group>"; };
-		B97C6D781A8BF0C7007E36A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B97C6D7B1A8BF0C7007E36A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B97C6D861A8BF0C8007E36A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B97C6D871A8BF0C8007E36A9 /* KIFEvaluationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIFEvaluationTests.m; sourceTree = "<group>"; };
-		B97C6D911A8BF17B007E36A9 /* KIFEvaluation-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFEvaluation-Prefix.pch"; sourceTree = "<group>"; };
-		B97C6F521A8BF784007E36A9 /* KIFEvaluationTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFEvaluationTests-Prefix.pch"; sourceTree = "<group>"; };
+		B97DCF491A98BFEF008ECE4E /* JGHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGHAppDelegate.h; sourceTree = "<group>"; };
+		B97DCF4A1A98BFEF008ECE4E /* JGHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGHAppDelegate.m; sourceTree = "<group>"; };
+		B97DCF4C1A98BFEF008ECE4E /* JGHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGHViewController.h; sourceTree = "<group>"; };
+		B97DCF4D1A98BFEF008ECE4E /* JGHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGHViewController.m; sourceTree = "<group>"; };
+		B97DCF4F1A98BFEF008ECE4E /* KIFEvaluation-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFEvaluation-Prefix.pch"; sourceTree = "<group>"; };
+		B97DCF501A98BFEF008ECE4E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B97DCF531A98BFEF008ECE4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B97DCF541A98BFEF008ECE4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B97DCF551A98BFEF008ECE4E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B97DCF5D1A98C04B008ECE4E /* KIFEvaluationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIFEvaluationTests.m; sourceTree = "<group>"; };
+		B97DCF5F1A98C04B008ECE4E /* KIFEvaluationTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFEvaluationTests-Prefix.pch"; sourceTree = "<group>"; };
+		B97DCF611A98C04B008ECE4E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,44 +143,92 @@
 		B97C6D6A1A8BF0C7007E36A9 /* KIF Evaluation */ = {
 			isa = PBXGroup;
 			children = (
-				B97C6D6F1A8BF0C7007E36A9 /* JGHAppDelegate.h */,
-				B97C6D701A8BF0C7007E36A9 /* JGHAppDelegate.m */,
-				B97C6D721A8BF0C7007E36A9 /* JGHViewController.h */,
-				B97C6D731A8BF0C7007E36A9 /* JGHViewController.m */,
-				B97C6D911A8BF17B007E36A9 /* KIFEvaluation-Prefix.pch */,
-				B97C6D781A8BF0C7007E36A9 /* Images.xcassets */,
-				B97C6D7A1A8BF0C7007E36A9 /* LaunchScreen.xib */,
-				B97C6D6B1A8BF0C7007E36A9 /* Supporting Files */,
+				B97DCF471A98BFEF008ECE4E /* Classes */,
+				B97DCF4E1A98BFEF008ECE4E /* Other Sources */,
+				B97DCF511A98BFEF008ECE4E /* Resources */,
 			);
 			path = "KIF Evaluation";
-			sourceTree = "<group>";
-		};
-		B97C6D6B1A8BF0C7007E36A9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B97C6D6C1A8BF0C7007E36A9 /* Info.plist */,
-				B97C6D6D1A8BF0C7007E36A9 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		B97C6D841A8BF0C8007E36A9 /* KIF Evaluation Tests */ = {
 			isa = PBXGroup;
 			children = (
 				B922EBAD1A93FB4400E74169 /* KIF.xcodeproj */,
-				B97C6D871A8BF0C8007E36A9 /* KIFEvaluationTests.m */,
-				B97C6F521A8BF784007E36A9 /* KIFEvaluationTests-Prefix.pch */,
-				B97C6D851A8BF0C8007E36A9 /* Supporting Files */,
+				B97DCF5C1A98C04B008ECE4E /* Classes */,
+				B97DCF5E1A98C04B008ECE4E /* Other Sources */,
+				B97DCF601A98C04B008ECE4E /* Resources */,
 			);
 			path = "KIF Evaluation Tests";
 			sourceTree = "<group>";
 		};
-		B97C6D851A8BF0C8007E36A9 /* Supporting Files */ = {
+		B97DCF471A98BFEF008ECE4E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B97C6D861A8BF0C8007E36A9 /* Info.plist */,
+				B97DCF481A98BFEF008ECE4E /* Application */,
+				B97DCF4B1A98BFEF008ECE4E /* View Controllers */,
 			);
-			name = "Supporting Files";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B97DCF481A98BFEF008ECE4E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B97DCF491A98BFEF008ECE4E /* JGHAppDelegate.h */,
+				B97DCF4A1A98BFEF008ECE4E /* JGHAppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B97DCF4B1A98BFEF008ECE4E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B97DCF4C1A98BFEF008ECE4E /* JGHViewController.h */,
+				B97DCF4D1A98BFEF008ECE4E /* JGHViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B97DCF4E1A98BFEF008ECE4E /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B97DCF4F1A98BFEF008ECE4E /* KIFEvaluation-Prefix.pch */,
+				B97DCF501A98BFEF008ECE4E /* main.m */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		B97DCF511A98BFEF008ECE4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B97DCF521A98BFEF008ECE4E /* LaunchScreen.xib */,
+				B97DCF541A98BFEF008ECE4E /* Images.xcassets */,
+				B97DCF551A98BFEF008ECE4E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B97DCF5C1A98C04B008ECE4E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B97DCF5D1A98C04B008ECE4E /* KIFEvaluationTests.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B97DCF5E1A98C04B008ECE4E /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B97DCF5F1A98C04B008ECE4E /* KIFEvaluationTests-Prefix.pch */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		B97DCF601A98C04B008ECE4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B97DCF611A98C04B008ECE4E /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,8 +362,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B97C6D7C1A8BF0C7007E36A9 /* LaunchScreen.xib in Resources */,
-				B97C6D791A8BF0C7007E36A9 /* Images.xcassets in Resources */,
+				B97DCF641A98C107008ECE4E /* LaunchScreen.xib in Resources */,
+				B97DCF5A1A98BFEF008ECE4E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B922EBA61A93FA7800E74169 /* KIFEvaluationTests.m in Sources */,
+				B97DCF621A98C04B008ECE4E /* KIFEvaluationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,9 +382,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B97C6D741A8BF0C7007E36A9 /* JGHViewController.m in Sources */,
-				B97C6D711A8BF0C7007E36A9 /* JGHAppDelegate.m in Sources */,
-				B97C6D6E1A8BF0C7007E36A9 /* main.m in Sources */,
+				B97DCF571A98BFEF008ECE4E /* JGHViewController.m in Sources */,
+				B97DCF581A98BFEF008ECE4E /* main.m in Sources */,
+				B97DCF561A98BFEF008ECE4E /* JGHAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,10 +399,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B97C6D7A1A8BF0C7007E36A9 /* LaunchScreen.xib */ = {
+		B97DCF521A98BFEF008ECE4E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B97C6D7B1A8BF0C7007E36A9 /* Base */,
+				B97DCF531A98BFEF008ECE4E /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -371,12 +419,12 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME) Tests/KIFEvaluationTests-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(PROJECT_NAME) Tests/Other Sources/KIFEvaluationTests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "KIF Evaluation Tests/Info.plist";
+				INFOPLIST_FILE = "KIF Evaluation Tests/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -396,8 +444,8 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME) Tests/KIFEvaluationTests-Prefix.pch";
-				INFOPLIST_FILE = "KIF Evaluation Tests/Info.plist";
+				GCC_PREFIX_HEADER = "$(PROJECT_NAME) Tests/Other Sources/KIFEvaluationTests-Prefix.pch";
+				INFOPLIST_FILE = "KIF Evaluation Tests/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -495,8 +543,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/KIFEvaluation-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/KIF Evaluation/Info.plist";
+				GCC_PREFIX_HEADER = "$(PROJECT_NAME)/Other Sources/KIFEvaluation-Prefix.pch";
+				INFOPLIST_FILE = "KIF Evaluation/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "KIF Evaluation";
 			};
@@ -507,8 +555,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/KIFEvaluation-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/KIF Evaluation/Info.plist";
+				GCC_PREFIX_HEADER = "$(PROJECT_NAME)/Other Sources/KIFEvaluation-Prefix.pch";
+				INFOPLIST_FILE = "KIF Evaluation/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "KIF Evaluation";
 			};
