@@ -17,4 +17,4 @@ As of now KIF doesn't have a dynamic framework target, so Carthage can only chec
 
 ## License
 
-MIT
+[MIT](LICENSE)
