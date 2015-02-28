@@ -1,6 +1,6 @@
 //
 //  JGHViewController.m
-//  KIF Evaluation
+//  KIFEvaluation
 //
 //  Created by Julian Grosshauser on 11/02/15.
 //  Copyright (c) 2015 Julian Grosshauser. All rights reserved.

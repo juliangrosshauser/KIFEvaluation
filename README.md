@@ -1,4 +1,4 @@
-# KIF Evaluation
+# KIFEvaluation
 
 [![Build Status](https://img.shields.io/travis/juliangrosshauser/KIFEvaluation.svg)](https://travis-ci.org/juliangrosshauser/KIFEvaluation)
 [![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)](https://developer.apple.com/devcenter/ios/index.action)

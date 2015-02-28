@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B97C6D671A8BF0C7007E36A9"
-               BuildableName = "KIF Evaluation.app"
-               BlueprintName = "KIF Evaluation"
-               ReferencedContainer = "container:KIF Evaluation.xcodeproj">
+               BuildableName = "KIFEvaluation.app"
+               BlueprintName = "KIFEvaluation"
+               ReferencedContainer = "container:KIFEvaluation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B922EB9A1A93F97400E74169"
-               BuildableName = "KIF Evaluation Tests.xctest"
-               BlueprintName = "KIF Evaluation Tests"
-               ReferencedContainer = "container:KIF Evaluation.xcodeproj">
+               BuildableName = "KIFEvaluationTests.xctest"
+               BlueprintName = "KIFEvaluationTests"
+               ReferencedContainer = "container:KIFEvaluation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B922EB9A1A93F97400E74169"
-               BuildableName = "KIF Evaluation Tests.xctest"
-               BlueprintName = "KIF Evaluation Tests"
-               ReferencedContainer = "container:KIF Evaluation.xcodeproj">
+               BuildableName = "KIFEvaluationTests.xctest"
+               BlueprintName = "KIFEvaluationTests"
+               ReferencedContainer = "container:KIFEvaluation.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B97C6D671A8BF0C7007E36A9"
-            BuildableName = "KIF Evaluation.app"
-            BlueprintName = "KIF Evaluation"
-            ReferencedContainer = "container:KIF Evaluation.xcodeproj">
+            BuildableName = "KIFEvaluation.app"
+            BlueprintName = "KIFEvaluation"
+            ReferencedContainer = "container:KIFEvaluation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B97C6D671A8BF0C7007E36A9"
-            BuildableName = "KIF Evaluation.app"
-            BlueprintName = "KIF Evaluation"
-            ReferencedContainer = "container:KIF Evaluation.xcodeproj">
+            BuildableName = "KIFEvaluation.app"
+            BlueprintName = "KIFEvaluation"
+            ReferencedContainer = "container:KIFEvaluation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B97C6D671A8BF0C7007E36A9"
-            BuildableName = "KIF Evaluation.app"
-            BlueprintName = "KIF Evaluation"
-            ReferencedContainer = "container:KIF Evaluation.xcodeproj">
+            BuildableName = "KIFEvaluation.app"
+            BlueprintName = "KIFEvaluation"
+            ReferencedContainer = "container:KIFEvaluation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
