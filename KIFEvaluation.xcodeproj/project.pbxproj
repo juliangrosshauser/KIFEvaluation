@@ -15,6 +15,7 @@
 		B94BE8FA1AA2189300BA450A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94BE8F41AA2189300BA450A /* Images.xcassets */; };
 		B94BE9031AA2189F00BA450A /* KIFEvaluationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B94BE8FE1AA2189F00BA450A /* KIFEvaluationTests.m */; };
 		B94BE9181AA2194000BA450A /* libKIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B94BE90F1AA2192F00BA450A /* libKIF.a */; };
+		B9A7D6F01AC4B98E00488A20 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A7D6EF1AC4B98E00488A20 /* IOKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		B94BE9051AA2192F00BA450A /* KIF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KIF.xcodeproj; path = Carthage/Checkouts/KIF/KIF.xcodeproj; sourceTree = SOURCE_ROOT; };
 		B97C07A21A92977B0045D746 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B97C6D681A8BF0C7007E36A9 /* KIFEvaluation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIFEvaluation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A7D6EF1AC4B98E00488A20 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			files = (
 				B94BE9181AA2194000BA450A /* libKIF.a in Frameworks */,
 				B922EBA91A93FA9C00E74169 /* CoreGraphics.framework in Frameworks */,
+				B9A7D6F01AC4B98E00488A20 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +210,7 @@
 		B97C07A41A92980C0045D746 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B9A7D6EF1AC4B98E00488A20 /* IOKit.framework */,
 				B97C07A21A92977B0045D746 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
@@ -417,6 +421,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_NAME)Tests/Other Sources/KIFEvaluationTests-Prefix.pch";
@@ -442,6 +447,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_NAME)Tests/Other Sources/KIFEvaluationTests-Prefix.pch";
@@ -628,6 +634,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_NAME)Tests/Other Sources/KIFEvaluationTests-Prefix.pch";
