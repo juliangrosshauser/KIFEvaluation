@@ -7,4 +7,3 @@ before_install:
   - brew upgrade
   - brew install carthage
 install: carthage update --no-build
-script: xcodebuild -project KIFEvaluation.xcodeproj -scheme KIFEvaluation -sdk iphonesimulator8.1 test
