@@ -1,0 +1,7 @@
+[
+  "-project", "KIFEvaluation.xcodeproj",
+  "-scheme", "KIFEvaluation",
+  "-configuration", "Debug",
+  "-sdk", "iphonesimulator",
+  "-arch", "i386"
+]
