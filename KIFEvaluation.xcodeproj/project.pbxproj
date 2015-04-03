@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80A10E2F71BFF82F50C21230 /* libPods-KIFEvaluationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 839B6A5D9B9D2EE7A1CD5083 /* libPods-KIFEvaluationTests.a */; };
 		B94BE8F61AA2189300BA450A /* JGHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B94BE8EA1AA2189300BA450A /* JGHAppDelegate.m */; };
 		B94BE8F71AA2189300BA450A /* JGHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B94BE8ED1AA2189300BA450A /* JGHViewController.m */; };
 		B94BE8F81AA2189300BA450A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B94BE8F01AA2189300BA450A /* main.m */; };
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		790A29F622040960CA123931 /* Pods-KIFEvaluationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIFEvaluationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KIFEvaluationTests/Pods-KIFEvaluationTests.release.xcconfig"; sourceTree = "<group>"; };
+		839B6A5D9B9D2EE7A1CD5083 /* libPods-KIFEvaluationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KIFEvaluationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B922EB9B1A93F97400E74169 /* KIFEvaluationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIFEvaluationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94BE8E91AA2189300BA450A /* JGHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGHAppDelegate.h; sourceTree = "<group>"; };
 		B94BE8EA1AA2189300BA450A /* JGHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGHAppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +43,8 @@
 		B94BE9001AA2189F00BA450A /* KIFEvaluationTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFEvaluationTests-Prefix.pch"; sourceTree = "<group>"; };
 		B94BE9021AA2189F00BA450A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B97C6D681A8BF0C7007E36A9 /* KIFEvaluation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIFEvaluation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09F526059D26451F54C5BE0 /* Pods-KIFEvaluationTests.coverage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIFEvaluationTests.coverage.xcconfig"; path = "Pods/Target Support Files/Pods-KIFEvaluationTests/Pods-KIFEvaluationTests.coverage.xcconfig"; sourceTree = "<group>"; };
+		E81EE048273B3B89D30F15A3 /* Pods-KIFEvaluationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIFEvaluationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KIFEvaluationTests/Pods-KIFEvaluationTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80A10E2F71BFF82F50C21230 /* libPods-KIFEvaluationTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +66,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F17B27AE9B8650041DEEB37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				839B6A5D9B9D2EE7A1CD5083 /* libPods-KIFEvaluationTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7789A1DD043F302F6317CB8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E81EE048273B3B89D30F15A3 /* Pods-KIFEvaluationTests.debug.xcconfig */,
+				D09F526059D26451F54C5BE0 /* Pods-KIFEvaluationTests.coverage.xcconfig */,
+				790A29F622040960CA123931 /* Pods-KIFEvaluationTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B94BE8E61AA2189300BA450A /* KIFEvaluation */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +180,8 @@
 				B94BE8E61AA2189300BA450A /* KIFEvaluation */,
 				B94BE8FC1AA2189F00BA450A /* KIFEvaluationTests */,
 				B97C6D691A8BF0C7007E36A9 /* Products */,
+				7789A1DD043F302F6317CB8A /* Pods */,
+				2F17B27AE9B8650041DEEB37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B922EBA31A93F97400E74169 /* Build configuration list for PBXNativeTarget "KIFEvaluationTests" */;
 			buildPhases = (
+				1D00BB7B02FCF75B9F943F61 /* Check Pods Manifest.lock */,
 				B922EB971A93F97400E74169 /* Sources */,
 				B922EB981A93F97400E74169 /* Frameworks */,
 				B922EB991A93F97400E74169 /* Resources */,
+				D38E5CCB0D27412DBF49B0CB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,6 +290,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D00BB7B02FCF75B9F943F61 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D38E5CCB0D27412DBF49B0CB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KIFEvaluationTests/Pods-KIFEvaluationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B922EB971A93F97400E74169 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -305,6 +366,7 @@
 /* Begin XCBuildConfiguration section */
 		B922EBA41A93F97400E74169 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E81EE048273B3B89D30F15A3 /* Pods-KIFEvaluationTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -327,6 +389,7 @@
 		};
 		B922EBA51A93F97400E74169 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 790A29F622040960CA123931 /* Pods-KIFEvaluationTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -509,6 +572,7 @@
 		};
 		B9F842881A98A8D80081F5BB /* Coverage */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D09F526059D26451F54C5BE0 /* Pods-KIFEvaluationTests.coverage.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
