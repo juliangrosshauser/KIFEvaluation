@@ -13,7 +13,7 @@
 		B94BE8F81AA2189300BA450A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B94BE8F01AA2189300BA450A /* main.m */; };
 		B94BE8F91AA2189300BA450A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B94BE8F21AA2189300BA450A /* LaunchScreen.xib */; };
 		B94BE8FA1AA2189300BA450A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94BE8F41AA2189300BA450A /* Images.xcassets */; };
-		B94BE9031AA2189F00BA450A /* KIFEvaluationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B94BE8FE1AA2189F00BA450A /* KIFEvaluationTests.m */; };
+		B94BE9031AA2189F00BA450A /* JGHViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B94BE8FE1AA2189F00BA450A /* JGHViewControllerSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 		B94BE8F31AA2189300BA450A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B94BE8F41AA2189300BA450A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B94BE8F51AA2189300BA450A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B94BE8FE1AA2189F00BA450A /* KIFEvaluationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIFEvaluationTests.m; sourceTree = "<group>"; };
+		B94BE8FE1AA2189F00BA450A /* JGHViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGHViewControllerSpec.m; sourceTree = "<group>"; };
 		B94BE9001AA2189F00BA450A /* KIFEvaluationTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFEvaluationTests-Prefix.pch"; sourceTree = "<group>"; };
 		B94BE9021AA2189F00BA450A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B97C6D681A8BF0C7007E36A9 /* KIFEvaluation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIFEvaluation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,7 +153,7 @@
 		B94BE8FD1AA2189F00BA450A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B94BE8FE1AA2189F00BA450A /* KIFEvaluationTests.m */,
+				B94BE8FE1AA2189F00BA450A /* JGHViewControllerSpec.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -328,7 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B94BE9031AA2189F00BA450A /* KIFEvaluationTests.m in Sources */,
+				B94BE9031AA2189F00BA450A /* JGHViewControllerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
