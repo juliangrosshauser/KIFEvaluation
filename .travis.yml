@@ -5,3 +5,4 @@ xcode_sdk: iphonesimulator8.1
 before_install:
   - brew update
   - brew upgrade
+after_success: bundle exec slather
